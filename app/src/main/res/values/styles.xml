@@ -9,7 +9,7 @@
 
     <style name="Base.Widget.AppCompat.Button.Borderless.ButtonStyles">
         <item name="android:width">@dimen/button_width</item>
-        <item name="android:background">@color/translucent_red</item>
+        <item name="android:background">@color/translucent_teal</item>
 
     </style>
 

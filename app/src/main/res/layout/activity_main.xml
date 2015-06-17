@@ -86,6 +86,8 @@
         android:paddingRight="@dimen/button_padding_right"
         android:layout_marginTop="@dimen/button_top_margin"
         android:layout_gravity="center_horizontal"
+        android:background="#D32F2F"
+        android:textColor="#FAFAFA"
         android:text="@string/capstone"
         android:id="@+id/capstone" />
 
