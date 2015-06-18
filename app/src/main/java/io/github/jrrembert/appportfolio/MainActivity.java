@@ -50,7 +50,7 @@ public class MainActivity extends ActionBarActivity {
         String click_text = (String) this.getText(R.string.click_text);
         CharSequence text = "";
         String app_name = "";
-        
+
         switch(view.getId()) {
             case R.id.spotify_streamer:
                 app_name = this.getString(R.string.spotify_streamer);
