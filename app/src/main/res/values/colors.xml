@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="translucent_teal">#009688</color>
+    <color name="teal">#009688</color>
     <color name="grey">#dfdfdf</color>
 </resources>

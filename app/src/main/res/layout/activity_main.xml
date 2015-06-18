@@ -23,7 +23,6 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:width="@dimen/button_width"
         android:paddingLeft="@dimen/button_padding_left"
         android:paddingRight="@dimen/button_padding_right"
         android:layout_marginTop="@dimen/button_top_margin"
@@ -34,7 +33,6 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:width="@dimen/button_width"
         android:paddingLeft="@dimen/button_padding_left"
         android:paddingRight="@dimen/button_padding_right"
         android:layout_marginTop="@dimen/button_top_margin"
@@ -42,12 +40,9 @@
         android:text="@string/scores"
         android:id="@+id/scores" />
 
-
-
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:width="@dimen/button_width"
         android:paddingLeft="@dimen/button_padding_left"
         android:paddingRight="@dimen/button_padding_right"
         android:layout_marginTop="@dimen/button_top_margin"
@@ -58,7 +53,6 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:width="@dimen/button_width"
         android:paddingLeft="@dimen/button_padding_left"
         android:paddingRight="@dimen/button_padding_right"
         android:layout_marginTop="@dimen/button_top_margin"
@@ -69,7 +63,6 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:width="@dimen/button_width"
         android:paddingLeft="@dimen/button_padding_left"
         android:paddingRight="@dimen/button_padding_right"
         android:layout_marginTop="@dimen/button_top_margin"
@@ -77,11 +70,9 @@
         android:text="@string/xyz_reader"
         android:id="@+id/xyz_reader" />
 
-
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:width="@dimen/button_width"
         android:paddingLeft="@dimen/button_padding_left"
         android:paddingRight="@dimen/button_padding_right"
         android:layout_marginTop="@dimen/button_top_margin"
@@ -89,7 +80,7 @@
         android:background="#D32F2F"
         android:textColor="#FAFAFA"
         android:text="@string/capstone"
+        android:onClick="sendMessage"
         android:id="@+id/capstone" />
-
 
 </LinearLayout>
