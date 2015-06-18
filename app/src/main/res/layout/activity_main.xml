@@ -9,7 +9,7 @@
     android:id="@+id/layout_app_portfolio"
     android:weightSum="1"
     android:orientation="vertical"
-    android:background="@color/grey" >
+    android:background="@color/alto" >
 
     <TextView
         android:layout_width="match_parent"
@@ -77,8 +77,8 @@
         android:paddingRight="@dimen/button_padding_right"
         android:layout_marginTop="@dimen/button_top_margin"
         android:layout_gravity="center_horizontal"
-        android:background="#D32F2F"
-        android:textColor="#FAFAFA"
+        android:background="@color/persian_red"
+        android:textColor="@color/alabaster"
         android:text="@string/capstone"
         android:onClick="sendMessage"
         android:id="@+id/capstone" />
