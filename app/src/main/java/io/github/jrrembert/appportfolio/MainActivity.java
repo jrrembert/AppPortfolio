@@ -1,9 +1,12 @@
 package io.github.jrrembert.appportfolio;
 
-import android.support.v7.app.ActionBarActivity;
+import android.content.Context;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Toast;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -12,6 +15,7 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
     }
 
     @Override
@@ -34,5 +38,22 @@ public class MainActivity extends ActionBarActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void sendMessage(View view) {
+        switch(view.getId()) {
+            case R.id.library:
+                System.out.println("You clicked on library!");
+                break;
+            case R.id.xyz_reader:
+                System.out.println("You clicked on xyz_reader!");
+                break;
+        }
+        Context context = getApplicationContext();
+        CharSequence text = "LOUD NOISES!";
+        int duration = Toast.LENGTH_SHORT;
+
+        Toast.makeText(context, text, duration).show();
+
     }
 }
