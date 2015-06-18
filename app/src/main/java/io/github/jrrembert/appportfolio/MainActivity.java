@@ -1,3 +1,17 @@
+/**
+ * Author: J. Ryan Rembert
+ * Project: AppPortfolio
+ * Source: https://github.com/jrrembert/AppPortfolio
+ *
+ * Copyright (C) 2015 J. Ryan Rembert. All rights reserved.
+ *
+ * Redistribution of source code perfectly cool as long as the
+ * above copyright notice is provided and you don't sue me if
+ * something (somehow) explodes. Unless it explodes into a
+ * rainbow of mutant dinosaurs made out of cookie batter.
+ * Then I assume complete credit.
+ */
+
 package io.github.jrrembert.appportfolio;
 
 import android.content.Context;
@@ -45,6 +59,10 @@ public class MainActivity extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    /**
+     *  Checks to see if a button is clicked and if so, logs the button's name and
+     *  prints a toast modal to the phone.
+     */
     public void sendMessage(View view) {
         
         String click_text = (String) this.getText(R.string.click_text);
