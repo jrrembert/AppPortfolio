@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="teal">#009688</color>
-    <color name="grey">#dfdfdf</color>
+    <color name="persian_green">#009688</color>
+    <color name="alto">#dfdfdf</color>
+    <color name="persian_red">#d32f2f</color>
+    <color name="alabaster">#fafafa</color>
 </resources>

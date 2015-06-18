@@ -13,5 +13,5 @@
     <!-- Strings to prepend to our click logging and toast messages -->
     <string name="toast">Opening&#160;</string>
     <string name="click_text">You clicked on&#160;</string>
-    
+
 </resources>
